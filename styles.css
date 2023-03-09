@@ -3,6 +3,18 @@ body {
     background: #1b2021;
 }
 
+li {
+    margin: 8px;
+}
+
+.code-block {
+    color: #fff0f3;
+    background-color: #590d22;
+    border-radius: 4px;
+    padding: 4px;
+    text-align: center;
+}
+
 .content {
     padding: 0 18px;
     display: none;
