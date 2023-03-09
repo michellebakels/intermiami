@@ -1,0 +1,25 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+section > h3 {
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5rem;
+}
+
+.container {
+    margin: 4rem;
+}
+
+.title {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+
+.subtitle {
+    text-align: center;
+}
+
+.title-description {
+    text-align: center;
+}
