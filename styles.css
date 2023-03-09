@@ -1,25 +1,82 @@
 body {
     font-family: 'Inter', sans-serif;
+    background: #1b2021;
 }
 
-section > h3 {
-    font-family: 'Pacifico', cursive;
-    font-size: 1.5rem;
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #fff0f3;
 }
 
 .container {
-    margin: 4rem;
+    margin: 3rem;
 }
 
 .title {
     font-family: 'Pacifico', cursive;
     text-align: center;
+    color: #ffccd5;
+    letter-spacing: 2px;
 }
 
 .subtitle {
     text-align: center;
+    color: #ffb3c1;
 }
 
 .title-description {
     text-align: center;
+    color: #ff8fa3;
 }
+
+.collapsible {
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    background: none;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5rem;
+    color: #fff0f3;
+    letter-spacing: 2px;
+}
+
+#section1 {
+    background-color: #ff758f;
+    border-radius: 10px 10px 0 0;
+}
+
+#section2 {
+    background-color: #ff4d6d;
+}
+
+#section3 {
+    background-color: #c9184a;
+}
+
+#section4 {
+    background-color: #a4133c;
+    border-radius: 0 0 10px 10px;
+}
+
+#section4.active {
+    border-radius: 0;
+}
+
+.collapsible:hover {
+    /*background-color: #555;*/
+}
+
+.disclaimer {
+    color: #fff0f3;
+    background-color: #590d22;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    padding: 8px;
+    text-align: center;
+}
+
